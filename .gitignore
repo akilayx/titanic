@@ -1,13 +1,10 @@
 # Python virtual environment
-.venv/
-
-# Jupyter checkpoints
-.ipynb_checkpoints/
+venv/
+env/
+pyvenv.cfg
 
 # Data files
 data/
-*.csv
-*.xlsx
 
-# Env files
-env
+# Jupyter checkpoints
+.ipynb_checkpoints/
