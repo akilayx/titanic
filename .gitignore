@@ -1,10 +1,7 @@
-# Виртуальное окружение
-venv/
+# Игнорировать виртуальное окружение
+.venv/
 
-# Настройки VS Code
-.vscode/
-
-# Все Jupyter Notebook кроме Research.ipynb
-*.ipynb
-!Research.ipynb
-
+# Игнорировать файлы с секретами
+.venv/.env
+# Игнорировать файлы Jupyter Notebook Checkpoints
+.ipynb_checkpoints/ 
