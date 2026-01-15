@@ -1,10 +1,10 @@
-# Python virtual environment
+# Виртуальное окружение
 venv/
-env/
-pyvenv.cfg
 
-# Data files
-data/
+# Настройки VS Code
+.vscode/
 
-# Jupyter checkpoints
-.ipynb_checkpoints/
+# Все Jupyter Notebook кроме Research.ipynb
+*.ipynb
+!Research.ipynb
+
