@@ -6,7 +6,7 @@
 *Исторический контекст:*
  *«Титаник» — крупнейший пассажирский лайнер своего времени, затонувший 15 апреля 1912 года во время первого рейса из-за столкновения с айсбергом. Катастрофа привела к гибели более 1500 человек, несмотря на статус судна как «непотопляемого». Эта трагедия стала поворотным моментом в истории морской безопасности: были пересмотрены правила строительства и эксплуатации пассажирских кораблей, а обломки лайнера были обнаружены на дне Атлантического океана в 1985 году.*
  
-(https://litvinovs.net/images/reflection/titanic_shipwreck_versions/titanic.jpg)
+![Исторический Титаник](https://litvinovs.net/images/reflection/titanic_shipwreck_versions/titanic.jpg)
 
 
 ## Цель проекта
@@ -96,10 +96,10 @@ jupyter — для разработки и демонстрации анализ
 ## Источники и материалы
 Для выполнения проекта были использованы следующие ресурсы:
 [Kaggle Titanic Dataset](https://www.kaggle.com/c/titanic)
-[Документация Pandas] (https://pandas.pydata.org/docs/)
-[Документация Matplotlib] (https://matplotlib.org/stable/contents.html)
-[Документация Seaborn] (https://seaborn.pydata.org/)
-[Scikit-learn User Guide] (https://scikit-learn.org/stable/user_guide.html)
+[Pandas] (https://pandas.pydata.org/docs/)
+[Matplotlib] (https://matplotlib.org/stable/contents.html)
+[Seaborn] (https://seaborn.pydata.org/)
+[Scikit-learn] (https://scikit-learn.org/stable/user_guide.html)
 Kaggle tutorials по Titanic— примеры анализа и построения моделей
 Учебные статьи и блоги по предобработке данных и инженерии признаков (feature engineering)
 
