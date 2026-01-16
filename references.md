@@ -1,7 +1,5 @@
 # References
 
-# References
-
 1. [Kaggle Titanic Dataset](https://www.kaggle.com/c/titanic)
 2. [Scikit-learn documentation](https://scikit-learn.org/stable/)
 3. [Pandas documentation](https://pandas.pydata.org/docs/)
@@ -12,3 +10,4 @@
 8. [Jupyter Notebook documentation](https://jupyter.org/documentation)
 9. [NumPy documentation](https://numpy.org/doc/)
 10. [Data Science Handbook by Jake VanderPlas](https://jakevdp.github.io/PythonDataScienceHandbook/)
+
