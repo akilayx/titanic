@@ -4,4 +4,12 @@
 # Игнорировать файлы с секретами
 .venv/.env
 # Игнорировать файлы Jupyter Notebook Checkpoints
+
 .ipynb_checkpoints/ 
+data/raw/
+data/interim/
+data/processed/
+models/
+*.csv
+*.pkl
+*.env
