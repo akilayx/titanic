@@ -1,15 +1,37 @@
-# Игнорировать виртуальное окружение
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
 .venv/
+env/
+ENV/
 
-# Игнорировать файлы с секретами
-.venv/.env
-# Игнорировать файлы Jupyter Notebook Checkpoints
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
 
-.ipynb_checkpoints/ 
-data/raw/
+# Data
 data/interim/
 data/processed/
+data/predictions/
+# оставляем raw, если хотим делиться исходными CSV
+# data/raw/
+
+# Models
 models/
-*.csv
-*.pkl
-*.env
+
+# System files
+.DS_Store
+desktop.ini
+Thumbs.db
+
+# Logs
+*.log
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
