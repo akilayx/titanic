@@ -8,9 +8,9 @@ import joblib
 # -----------------------
 # Папки
 # -----------------------
-BASE_DIR = Path(__file__).resolve().parent.parent  # на уровень выше от modelling/
-PROCESSED_DIR = BASE_DIR / "data/processed"
-MODELS_DIR = BASE_DIR / "models"
+PROJECT_DIR = Path(__file__).resolve().parent.parent.parent  # корень проекта titanic/
+PROCESSED_DIR = PROJECT_DIR / "data" / "processed"
+MODELS_DIR = PROJECT_DIR / "models"
 MODELS_DIR.mkdir(parents=True, exist_ok=True)
 
 # -----------------------
@@ -44,4 +44,3 @@ print(f"Validation Accuracy: {acc:.4f}")
 # -----------------------
 joblib.dump(model, MODELS_DIR / "logreg_model.pkl")
 print(f"Модель сохранена в {MODELS_DIR / 'logreg_model.pkl'}")
-
