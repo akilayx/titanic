@@ -4,3 +4,6 @@ matplotlib
 seaborn
 scikit-learn
 jupyter
+python-dotenv
+psycopg2-binary
+
