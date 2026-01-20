@@ -44,11 +44,14 @@ def main():
 
         plt.title(sql_file.name)
         plt.tight_layout()
-        plt.show()
+        plt.savefig(f"reports/figures/{sql_file.stem}.png")
+        plt.close()  # закрыть фигуру после сохранения
 
 
 if __name__ == "__main__":
     main()
+    
+
 
 
 
