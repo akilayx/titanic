@@ -15,9 +15,9 @@ DB_NAME = os.getenv("POSTGRES_DB")
 DB_USER = os.getenv("POSTGRES_USER")
 DB_PASSWORD = os.getenv("POSTGRES_PASSWORD")
 
-print("DB_HOST:", DB_HOST)
-print("DB_USER:", DB_USER)
-print("DB_PASSWORD:", "есть" if DB_PASSWORD else "пусто")
+# print("DB_HOST:", DB_HOST)
+# print("DB_USER:", DB_USER)
+# print("DB_PASSWORD:", "есть" if DB_PASSWORD else "пусто")
 
 def get_db_connection():
     if None in (DB_HOST, DB_PORT, DB_NAME, DB_USER):
