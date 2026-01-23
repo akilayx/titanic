@@ -1,7 +1,7 @@
 import os
 from pathlib import Path
 from dotenv import load_dotenv
-import psycopg2
+import pcycopg2
 
 # Абсолютный путь к .env
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
@@ -31,7 +31,6 @@ def get_db_connection():
         password=DB_PASSWORD
     )
     return conn
-
 
 
 
