@@ -4,6 +4,11 @@ __pycache__/
 *.pyo
 *.pyd
 
+data/
+dbeaver/
+raw/
+
+
 notebooks/
 titanic.db
 
