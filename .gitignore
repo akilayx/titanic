@@ -9,8 +9,6 @@ dbeaver/
 raw/
 
 
-notebooks/
-titanic.db
 
 # Distribution / packaging
 .env
