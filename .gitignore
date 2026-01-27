@@ -4,11 +4,9 @@ __pycache__/
 *.pyo
 *.pyd
 
-data/
-dbeaver/
-raw/
+data/dbeaver/
+data/raw/
   
-
 # Distribution / packaging
 .env
 
