@@ -134,13 +134,13 @@ jupyter — для разработки и демонстрации анализ
 
 [Kaggle Titanic Dataset](https://www.kaggle.com/c/titanic)
 
-[Pandas] (https://pandas.pydata.org/docs/)
+[Pandas](https://pandas.pydata.org/docs/)
 
-[Matplotlib] (https://matplotlib.org/stable/contents.html)
+[Matplotlib](https://matplotlib.org/stable/contents.html)
 
-[Seaborn] (https://seaborn.pydata.org/)
+[Seaborn](https://seaborn.pydata.org/)
 
-[Scikit-learn] (https://scikit-learn.org/stable/user_guide.html)
+[Scikit-learn](https://scikit-learn.org/stable/user_guide.html)
 
 Kaggle tutorials по Titanic— примеры анализа и построения моделей
 
