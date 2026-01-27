@@ -7,8 +7,7 @@ __pycache__/
 data/
 dbeaver/
 raw/
-
-
+  
 
 # Distribution / packaging
 .env
