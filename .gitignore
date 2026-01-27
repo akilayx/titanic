@@ -4,8 +4,6 @@ __pycache__/
 *.pyo
 *.pyd
 
-data/dbeaver/
-data/raw/
   
 # Distribution / packaging
 .env
@@ -19,11 +17,12 @@ ENV/
 .ipynb_checkpoints/
 
 # Data
+data/dbeaver/
+data/raw/
 data/interim/
 data/processed/
 data/predictions/
-# оставляем raw, если хотим делиться исходными CSV
-# data/raw/
+
 
 # Models
 models/
