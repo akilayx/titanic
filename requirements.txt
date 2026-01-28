@@ -1,9 +1,52 @@
+# Data analysis
 pandas
 numpy
+
+# Visualization
 matplotlib
 seaborn
+
+# Machine Learning
 scikit-learn
+xgboost
+
+# Jupyter notebooks
 jupyter
+
+# Environment variables
 python-dotenv
+
+# Database
 psycopg2-binary
+sqlalchemy
+
+# Development & formatting (optional for clean code)
+black
+isort
+flake8
+
+# Documentation (optional)
+mkdocs
+mkdocs-material
+mkdocs-gen-files
+mkdocs-include-markdown-plugin
+ansi2html
+termynal
+
+# Testing
+pytest
+pexpect
+pytest-cov
+pytest-mock
+tox
+pre-commit
+# CI/CD
+tox-gh-actions
+twine
+bump2version
+wheel
+setuptools
+mkdocs-gh-deploy
+mkdocs-material-extensions
+mkdocs-macros-plugin
 
