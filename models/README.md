@@ -1,16 +1,21 @@
-# Модели машинного обучения
+## Machine Learning Models
+This folder contains machine learning models developed for the task of predicting the survival of Titanic passengers.
 
-В данной папке находятся модели машинного обучения, разработанные для задачи прогнозирования выживаемости пассажиров «Титаника».
+### Model objectives:
+Predict passenger survival based on demographic and socio-economic features
 
-Цели моделей:
-- Прогнозировать выживаемость пассажиров на основе демографических и социально-экономических признаков
-- Сравнивать различные алгоритмы машинного обучения
-- Оптимизировать качество моделей с помощью инженерии признаков и настройки гиперпараметров
+Compare different machine learning algorithms
 
-Используемые модели:
-- Логистическая регрессия (Logistic Regression)
-- Случайный лес (Random Forest)
-- Градиентный бустинг (Gradient Boosting)
-- XGBoost (опционально)
+Improve model performance through feature engineering and hyperparameter tuning
 
-Финальная модель выбирается на основе метрик качества: accuracy, precision, recall и ROC-AUC.
+### Models used:
+
+Logistic Regression
+
+Random Forest
+
+Gradient Boosting
+
+XGBoost (optional)
+
+The final model is selected based on performance metrics: accuracy, precision, recall, and ROC-AUC.
