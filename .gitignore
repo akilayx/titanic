@@ -13,12 +13,13 @@ __pycache__/
 env/
 ENV/
 
+
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
 # Specific notebooks to ignore
-for_drop.ipynb
-test.ipynb
+notebooks/for_drop.ipynb
+notebooks/test.ipynb
 
 # Data
 data/raw/
