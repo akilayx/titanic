@@ -29,8 +29,6 @@ data/interim/
 data/processed/
 data/predictions/
 
-# Models
-models/
 
 # System files
 .DS_Store
