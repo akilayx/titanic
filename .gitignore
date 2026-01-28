@@ -16,13 +16,15 @@ ENV/
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
+# Specific notebooks to ignore
+for_drop.ipynb
+test.ipynb
+
 # Data
-data/dbeaver/
 data/raw/
 data/interim/
 data/processed/
 data/predictions/
-
 
 # Models
 models/

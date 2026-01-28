@@ -3,11 +3,6 @@ from pathlib import Path
 from dotenv import load_dotenv
 import pcycopg2
 
-# Абсолютный путь к .env
-BASE_DIR = Path(__file__).resolve().parent.parent.parent
-dotenv_path = BASE_DIR / ".env"
-load_dotenv(dotenv_path)
-
 # Берём переменные из .env
 DB_HOST = os.getenv("POSTGRES_HOST")
 DB_PORT = os.getenv("POSTGRES_PORT")
