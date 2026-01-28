@@ -25,7 +25,6 @@ notebooks/test.ipynb
 
 
 # Data
-data/raw/
 data/interim/
 data/processed/
 data/predictions/
