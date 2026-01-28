@@ -19,13 +19,10 @@ ENV/
 # -----------------
 .ipynb_checkpoints/
 
-# -----------------
-# Notebooks
-# Ignore all notebooks by default except the main ones
-# -----------------
-notebooks/*
-!notebooks/eda_base.ipynb
-!notebooks/eda_extra.ipynb
+# Notebooks to ignore
+notebooks/for_drop.ipynb
+notebooks/test.ipynb
+
 
 # Data
 data/raw/
