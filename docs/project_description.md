@@ -1,11 +1,11 @@
-# Проект: Прогнозирование выживаемости пассажиров «Титаника»
+# Project: Titanic Passenger Survival Prediction
 
-Данный проект посвящён разведочному анализу данных (EDA), обогащению данных и построению моделей машинного обучения для классического датасета «Титаник».
+This project is dedicated to exploratory data analysis (EDA), feature engineering, and building machine learning models for the classic Titanic dataset.
 
-Основные цели проекта:
-- Исследование и анализ данных пассажиров «Титаника»
-- Инженерия признаков и обогащение данных
-- Построение моделей машинного обучения для прогнозирования выживаемости пассажиров
-- Анализ качества и эффективности моделей
+Main objectives of the project:
+- Explore and analyze passenger data from the Titanic dataset
+- Perform feature engineering and data enrichment
+- Build machine learning models to predict passenger survival
+- Evaluate and analyze model performance and effectiveness
 
-Проект реализован как полный пайплайн data science, включающий предварительную обработку данных, SQL-анализ, разведочный анализ данных (EDA) и моделирование.
+The project is implemented as a complete data science pipeline, including data preprocessing, SQL-based analysis, exploratory data analysis (EDA), and predictive modeling.

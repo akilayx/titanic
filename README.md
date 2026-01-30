@@ -1,152 +1,155 @@
 ## Titanic Survival Prediction
-Меня зовут Акылай, я учусь в 10 классе и начинаю изучать анализ данных и машинное обучение. Этот проект является моим первым практическим заданием в этой области. В рамках проекта я изучаю полный цикл работы с данными: от их исследования и предобработки до построения моделей машинного обучения и интерпретации результатов.
 
-Цель проекта — разработать модель, способную предсказывать вероятность выживания пассажиров Титаника на основе доступных характеристик. Проект позволяет применить на практике навыки обработки данных, анализа и построения моделей, а также формирует понимание того, какие факторы влияют на шансы пассажиров выжить.
+My name is Akilay, I am a 10th-grade student, and I am starting to learn data analysis and machine learning. This project is my first practical assignment in this field. It covers the entire data workflow, from exploration and preprocessing to model building and interpretation of results.
 
-*Исторический контекст:*
- *«Титаник» — крупнейший пассажирский лайнер своего времени, затонувший 15 апреля 1912 года во время первого рейса из-за столкновения с айсбергом. Катастрофа привела к гибели более 1500 человек, несмотря на статус судна как «непотопляемого». Эта трагедия стала поворотным моментом в истории морской безопасности: были пересмотрены правила строительства и эксплуатации пассажирских кораблей, а обломки лайнера были обнаружены на дне Атлантического океана в 1985 году.*
+The goal of the project is to develop a model that predicts the probability of passenger survival on the Titanic based on available features. The project allows me to apply data processing, analysis, and modeling skills in practice and helps understand which factors influenced passengers’ chances of survival..
+
+*Historical Context*
+*The "Titanic" was the largest passenger liner of its time, which sank on April 15, 1912, during its maiden voyage after hitting an iceberg. Over 1,500 people died, despite the ship being considered "unsinkable." This tragedy became a turning point in maritime safety regulations, influencing ship construction and evacuation procedures. The wreck of the Titanic was discovered on the Atlantic Ocean floor in 1985.*
  
 ![Исторический Титаник](https://litvinovs.net/images/reflection/titanic_shipwreck_versions/titanic.jpg)
 
 
-## Цель проекта
-Основная цель проекта — продемонстрировать понимание процессов работы с данными и базовые навыки машинного обучения, включая:
+## Project Goal
+44The main objective of this project is to demonstrate understanding of the data workflow and basic machine learning skills, including:
 
-1.Изучение и анализ структуры данных
+Exploring and analyzing the structure of data
 
-2.Обработку пропусков и аномалий
+Handling missing values and anomalies
 
-3.Кодирование категориальных признаков и создание новых информативных признаков (feature engineering)
+Encoding categorical features and creating new informative features (feature engineering)
 
-4.Построение и сравнение нескольких моделей машинного обучения
+Building and comparing multiple machine learning models
 
-5.Oценку качества моделей и интерпретацию результатов
+Evaluating model performance and interpreting results
 
-6.Проект позволяет применить теоретические знания на практике и получить наглядные результаты, которые отражают влияние различных факторов на выживаемость пассажиров.
+Applying theoretical knowledge to practice and visualizing how different factors affect survival chances
 
 
-## Данные
-Для анализа используются официальные наборы данных Titanic с платформы Kaggle:
+## Dataset
 
-•train.csv — содержит информацию о пассажирах и известные результаты их выживания (целевую переменную Survived).
+The analysis uses the official Titanic datasets from Kaggle:
 
-•test.csv — содержит аналогичные данные без целевой переменной и используется для проверки точности модели.
+**train.csv** — contains passenger information and known survival outcomes (Survived)
 
-*Ключевые признаки, используемые в проекте:*
+**test.csv** — contains similar data without the target variable, used for testing the model
 
-•Sex (Пол) — пол пассажира
+Key features used in the project:
 
-•Age (Возраст) — возраст пассажира
+**Sex** — passenger gender
 
-•Pclass (Класс билета) — социально-экономический статус
+**Age** — passenger age
 
-•SibSp / Parch — количество членов семьи на борту
+**Pclass** — ticket class / socio-economic status
 
-•Embarked (Порт посадки) — порт посадки пассажира
+**SibSp / Parch** — family members on board
 
+**Embarked** — port of embarkation
 
 
-## Этапы проекта
-Проект включает несколько последовательных этапов, которые позволяют пошагово анализировать данные и строить модель предсказания выживаемости пассажиров Титаника:
-### 1. Сбор и подготовка данных
-▸Импорт данных из CSV-файлов (train.csv, test.csv)
 
-▸Проверка структуры данных, типов признаков и пропущенных значений
+## Project Workflow
 
-▸Очистка данных и устранение пропусков в признаках Age, Embarked и других
+The project follows a step-by-step workflow:
 
-▸Объединение и сохранение промежуточных таблиц для последующего анализа
+### 1. Data Collection and Preparation
 
-### 2. Предобработка данных
-▸Кодирование категориальных переменных (пол, порт посадки) в числовой формат
+Import data from CSV files (train.csv, test.csv)
 
-▸Создание новых информативных признаков, например:
+Check data structure, feature types, and missing values
 
- Суммарное количество членов семьи на борту (SibSp + Parch)
+Clean data and fill missing values for features like Age and Embarked
 
- Признак “Взрослый/Ребёнок” по возрасту
+Merge and save intermediate tables for further analysis
 
-▸Масштабирование и нормализация признаков для алгоритмов машинного обучения
+### 2. Data Preprocessing
 
-### 3. Исследовательский анализ данных (EDA)
-▸Визуализация распределений признаков (гистограммы, boxplot, countplot)
+Encode categorical variables (Sex, Embarked) into numerical format
 
-▸Изучение зависимости выживаемости от пола, возраста, класса билета, количества семьи на борту и порта посадки
+Create new features such as:
 
-▸Выявление аномалий и потенциально важных закономерностей
+Total family size (SibSp + Parch + 1)
 
-▸Проверка корреляций между признаками и целевой переменной
+Adult/Child indicator based on age
 
-### 4. Построение и обучение моделей
-▸Разделение данных на обучающую и тестовую выборки
+Scale and normalize features for machine learning algorithms
 
-▸Построение и обучение моделей машинного обучения:
+### 3. Exploratory Data Analysis (EDA)
 
- Логистическая регрессия
+Visualize distributions of features (histograms, boxplots, countplots)
 
- Дерево решений (Decision Tree)
+Explore the relationship between survival and features like sex, age, ticket class, family size, and port of embarkation
 
- Случайный лес (Random Forest)
+Identify anomalies and potentially important patterns
 
-▸Подбор гиперпараметров и оптимизация моделей
+Check correlations between features and the target variable
 
-▸Сравнение моделей по метрикам точности
+### 4. Model Building and Training
 
-### 5. Оценка качества моделей
-▸Расчёт метрик: Accuracy, Precision, Recall
+Split data into training and testing sets
 
-▸Построение матрицы ошибок (Confusion Matrix)
+Train multiple machine learning models:
 
-▸Выявление модели с наилучшей точностью и стабильностью
+Logistic Regression
 
-### 6. Интерпретация результатов
-Определение ключевых факторов, влияющих на выживаемость пассажиров:
+Decision Tree
 
-Пол пассажира (женщины выживали чаще)
+Random Forest
 
-Социальный класс (пассажиры первого класса имели больше шансов)
+k-Nearest Neighbors (kNN)
 
-Возраст и состав семьи на борту
+Naive Bayes
 
-Формулировка выводов о влиянии признаков на шансы выживания
+Support Vector Classifier (SVC)
 
+Tune hyperparameters and optimize models
 
+Compare models using evaluation metrics
 
-## Используемые библиотеки
-Для реализации проекта применяются следующие инструменты Python:
+### 5. Model Evaluation
 
-pandas — для обработки и анализа данных
+Calculate accuracy, precision, recall, and ROC-AUC
 
-numpy — для работы с массивами и числовыми операциями
+Build a confusion matrix
 
-matplotlib — для базовой визуализации данных
+Identify the model with the best performance and stability
 
-seaborn — для построения продвинутых графиков распределений
+### 6. Results Interpretation
 
-scikit-learn — для построения моделей машинного обучения
+Determine key factors affecting passenger survival:
 
-jupyter — для разработки и демонстрации анализа в ноутбуках
+Gender (women survived more often)
 
+Social class (1st-class passengers had higher survival rates)
 
+Age and family composition on board
 
-## Источники и материалы
-Для выполнения проекта были использованы следующие ресурсы:
+Draw conclusions about how these features influence survival chances
 
-[Kaggle Titanic Dataset](https://www.kaggle.com/c/titanic)
+## Libraries Used
 
-[Pandas](https://pandas.pydata.org/docs/)
+pandas — data manipulation and analysis
 
-[Matplotlib](https://matplotlib.org/stable/contents.html)
+numpy — numerical operations
 
-[Seaborn](https://seaborn.pydata.org/)
+matplotlib — basic visualizations
 
-[Scikit-learn](https://scikit-learn.org/stable/user_guide.html)
+seaborn — advanced visualizations
 
-Kaggle tutorials по Titanic— примеры анализа и построения моделей
+scikit-learn — machine learning models
 
-Учебные статьи и блоги по предобработке данных и инженерии признаков (feature engineering)
+Jupyter Notebook — interactive analysis and reporting
 
+## Sources and References
 
-## Результаты
-Проект демонстрирует базовое применение анализа данных и машинного обучения для решения практической задачи предсказания выживаемости.
+(Kaggle Titanic Dataset)[https://www.kaggle.com/competitions/titanic]  
+(Pandas Documentation)[https://pandas.pydata.org/docs/]
+(Matplotlib Documentation)[https://matplotlib.org/stable/contents.html]
+(Seaborn Documentation)[https://seaborn.pydata.org/documentation.html]  
+(Scikit-learn Documentation)[https://scikit-learn.org/stable/documentation.html]  
+(Kaggle tutorials and blogs on Titanic EDA and machine learning)[https://www.kaggle.com/search?q=titanic+eda]  
+(Educational articles on feature engineering and data preprocessing)[https://towardsdatascience.com/feature-engineering-for-machine-learning-3a5e293a5114]
 
+## Project Outcomes
+
+This project demonstrates the practical application of data analysis and machine learning to a real-world problem: predicting passenger survival. It provides hands-on experience in data cleaning, visualization, feature engineering, modeling, and interpretation of results.
