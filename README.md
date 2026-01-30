@@ -11,7 +11,7 @@ The goal of the project is to develop a model that predicts the probability of p
 
 
 ## Project Goal
-44The main objective of this project is to demonstrate understanding of the data workflow and basic machine learning skills, including:
+The main objective of this project is to demonstrate understanding of the data workflow and basic machine learning skills, including:
 
 Exploring and analyzing the structure of data
 
