@@ -142,13 +142,19 @@ Jupyter Notebook — interactive analysis and reporting
 
 ## Sources and References
 
-(Kaggle Titanic Dataset)[https://www.kaggle.com/competitions/titanic]  
-(Pandas Documentation)[https://pandas.pydata.org/docs/]
-(Matplotlib Documentation)[https://matplotlib.org/stable/contents.html]
-(Seaborn Documentation)[https://seaborn.pydata.org/documentation.html]  
-(Scikit-learn Documentation)[https://scikit-learn.org/stable/documentation.html]  
-(Kaggle tutorials and blogs on Titanic EDA and machine learning)[https://www.kaggle.com/search?q=titanic+eda]  
-(Educational articles on feature engineering and data preprocessing)[https://towardsdatascience.com/feature-engineering-for-machine-learning-3a5e293a5114]
+[Kaggle Titanic Dataset](https://www.kaggle.com/competitions/titanic)
+
+[Pandas Documentation](https://pandas.pydata.org/docs/)
+
+[Matplotlib Documentation](https://matplotlib.org/stable/contents.html)
+
+[Seaborn Documentation](https://seaborn.pydata.org/documentation.html)
+
+[Scikit-learn Documentation](https://scikit-learn.org/stable/documentation.html)
+
+[Kaggle tutorials and blogs on Titanic EDA and machine learning](https://www.kaggle.com/search?q=titanic+eda)  
+
+[Educational articles on feature engineering and data preprocessing](https://towardsdatascience.com/feature-engineering-for-machine-learning-3a5e293a5114)
 
 ## Project Outcomes
 
